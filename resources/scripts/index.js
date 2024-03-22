@@ -1,4 +1,4 @@
-import RockPaperScissors from "./rock_paper_scissors";
+import {RockPaperScissors} from "./rock_paper_scissors";
 
 // Elements
 const welcomeScreen = document.getElementById(`welcome-screen`);

@@ -1,4 +1,4 @@
-export class RockPaperScissors; {
+export class RockPaperScissors {
   constructor(username) {
     this.username = username;
     this.score = {
@@ -40,7 +40,7 @@ export class RockPaperScissors; {
     else if(
       (userSelection == `paper` && cpuSelection == `rock`) || 
       (userSelection == `scissors` && cpuSelection == `paper`) || 
-      (userSelection === `rock` && cpuSelection == `scissors`)
+      (userSelection == `rock` && cpuSelection == `scissors`)
     ) {
       return `win`; 
     }
@@ -60,7 +60,7 @@ export class RockPaperScissors; {
     if(results == `win`) { 
       this.score.user++; 
     }
-    if(results === `lose`) { 
+    if(results == `lose`) { 
       this.score.cpu++; 
     }
 
