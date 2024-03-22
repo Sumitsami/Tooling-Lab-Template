@@ -3,6 +3,9 @@
   "search.exclude": {
     "**/node_modules": true,
     "**/dist": true,
-    "**/docs": true
+    "**/docs": true,
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
   }
 }
