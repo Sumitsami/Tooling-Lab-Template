@@ -6,7 +6,8 @@
     "start": "open index.html",
     "test": "jest",
     "test:watch": "jest --watchAll",
-    "postinstall": "node .scripts/badge.js"
+    "postinstall": "node .scripts/badge.js",
+    "lint": "eslint --ext .js resources/scripts"
   },
   "author": "Yahya Gilany <gilanyym@ucmail.uc.edu>",
   "license": "UNLICENSED",
