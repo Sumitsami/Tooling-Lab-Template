@@ -40,8 +40,8 @@ class RockPaperScissors {
     else if(
       (userSelection == `paper` && cpuSelection == `rock`) || 
       (userSelection == `scissors` && cpuSelection == `paper`) || 
-      (userSelection == `rock` && cpuSelection == `scissors`)
-    ) {   
+      (userSelection === `rock` && cpuSelection == `scissors`)
+    ) {
       return `win`; 
     }
     else { 
