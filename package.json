@@ -7,7 +7,9 @@
     "test": "jest",
     "test:watch": "jest --watchAll",
     "postinstall": "node .scripts/badge.js",
-    "lint": "eslint --ext .js resources/scripts"
+    "lint": "eslint --ext .js resources/scripts",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
   },
   "author": "Yahya Gilany <gilanyym@ucmail.uc.edu>",
   "license": "UNLICENSED",
